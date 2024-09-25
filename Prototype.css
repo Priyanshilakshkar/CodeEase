@@ -1,0 +1,61 @@
+.card1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 100%;
+    background-color: rgb(44, 45, 45);
+    height: 45px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+body{
+    background-color: rgb(6, 6, 6);
+}
+.card1 .cap button{
+    font-size: 20px;
+    height: 40px;
+    background-color: rgb(105, 134, 190);
+    color: white;
+    border-radius: 10px;
+
+}
+.card1 .schedule button{
+   height: 40px;
+   font-size: 20px;
+   width: 200px;
+   border-radius: 10px;
+   background-color: rgb(161, 102, 190);
+}
+.card1 .book button{
+    height: 40px;
+    font-size: 20px;
+    background-color: crimson;
+    border-radius: 10px;
+    width: 200px;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: aquamarine;
+    font-size: 30px;
+    
+}
+.card1:hover{
+    background-color: rgb(68, 67, 67);
+
+
+}
+.container{
+    color:cornflowerblue;
+    font-size: 30px;
+}
