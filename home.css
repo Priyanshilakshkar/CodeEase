@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    height: 100px;
+    width: auto;
+    background-color: rgb(33,33,32);
+    display: flex;
+    
+    
+}
+.search{
+    height: 20px;
+    margin: 0;
+}
+.element{
+    height:45px;
+    width: 190px;
+    font: 16px;
+    color: black;
+    margin: 40px;
+    background-color: red;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.element h1 {
+    font-size: 25px;
+}
